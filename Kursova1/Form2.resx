@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="richTextBox1.Text" xml:space="preserve">
+    <value>·	Відкриття файлу
+Для опрацювання користувацького списку товарів на панелі інструментів виберіть пункт  Файл-&gt;Відкрити або кнопку на формі Відкрити файл з товарами.
+
+·	Зберігання у файл
+Для того, щоб зберегти список на комп’ютері, на панелі інструментів виберіть пункт Файл -&gt;Зберегти  як або кнопку на формі Зберегти товари у файл.
+
+·	Додавання нового товару
+Для того, щоб додати до списку новий товар, виберіть пункт Функції-&gt; Додати товар. Щоб додати товар вручну виберіть пункт Функції-&gt; Додати товар-&gt; Ввести вручну або кнопку на формі Додати товари вручну, введіть про нього необхідні дані у вікні, що з’явилося та натисніть кнопку на формі Додати. Для відміни додавання нового спортсмена натисніть кнопку Відмінити. Щоб додати товари з файлу виберіть пункт Функції-&gt; Додати товар-&gt; Додати з файлу або кнопку на формі Додати товари з файлу, виберіть відповідний файл та натисніть Відкрити, після цього товари буде додано до списку. Для відміни додавання нового спортсмена натисніть кнопку Скасувати.
+
+·	Видалення товару
+Для видалення товару зі списку введіть його порядковий номер у вікні, яке з’являється при виборі пункту Функції-&gt; Видалити товар або кнопки на формі Видалити товар. Після цього з’явиться панель для введення порядкового номеру. Для підтвердження натисніть OK, для відміни - Cancel. Якщо порядковий номер введений некоректно, то з’явиться відповідне повідомлення.
+
+·	Відображення типу товару з найменшим середнім терміном зберігання
+Для відображення типу товару з найменшим середнім терміном зберігання оберіть пункт Функції-&gt; Показати тип товару з найменшим середнім терміном зберігання або кнопку на формі Показати тип товару з найменшим середнім терміном зберігання.
+
+·	Відображення товарів, термін придатності яких виходить у заданому місяці
+Для відображення товарів, термін придатності яких виходить у заданому місяці оберіть пункт Функції-&gt; Показати товари, термін придатності яких виходить у заданому місяці або кнопку на формі Показати товари, термін придатності яких виходить у заданому місяці. Після цього з’явиться панель для введення даних. Для підтвердження натисніть OK, для відміни - Скасувати. Якщо таких товарів не знайдено, з’явиться відповідне повідомлення. 
+
+·	Сортування типів товарів по сумарній вартості
+Для сортування типів товарів по сумарній вартості оберіть пункт Функції-&gt; Відсортувати типи товарів по сумарній вартості або кнопку на формі Відсортувати типи товарів по сумарній вартості.
+
+·	Відображення товарів, у діапазоні цін за одиницю
+Для відображення товарів, у діапазоні цін за одиницю оберіть пункт Функції-&gt; Показати список товарів, у діапазоні ціни за одиницю або кнопку на формі Показати список товарів, у діапазоні ціни за одиницю. Після цього з’явиться панель для введення місяця. Для підтвердження натисніть OK, для відміни - Скасувати. Якщо таких товарів не знайдено, з’явиться відповідне повідомлення.
+
+·	Інструкція користувача
+Щоб отримати інструкцію користувача потрібно обрати пункт Довідка-&gt; Інструкція користувача.
+
+·	Про програму
+Детальніше про програму можна дізнатися при виборі пункту Довідка-&gt; Про програму.</value>
+  </data>
+</root>
